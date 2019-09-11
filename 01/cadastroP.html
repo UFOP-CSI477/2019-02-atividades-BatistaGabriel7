@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="br" dir="ltr">
+
+	<head>
+		<!--Comentário-->
+		<title>Cadastrar Produto</title> 
+		<meta charset="utf-8">
+	</head>
+
+	<body>
+		<h1>Dados do Cadastro</h1>
+
+		<form method="post" action="validar.html">
+			<label for="nome">Nome:</label>
+			<input type="text" name="nome" id="nome" placeholder="Nome do produto">
+			<br>
+			<br>
+
+			<label for="peso">Peso:</label>
+			<input type="text" name="peso" id="peso" placeholder="Peso do produto">
+			<br>
+			<br>
+
+			<label for="unidade">Unidade de medida:</label>
+			<input type="text" name="unidade" id="unidade" placeholder="Kg, g, cm, m, etc">
+			<br>
+			<br>
+
+			<label for="valor">Valor:</label>
+			<input type="text" name="valor" id="valor" placeholder="Valor do produto">
+			<br>
+			<br>
+
+			<label for="estoque">Estoque:</label>
+			<input type="text" name="estoque" id="estoque" placeholder="Quantidade em estoque">
+			<br>
+			<br>
+			
+			<label for="mercado">Mercado:</label>
+			<input type="text" name="mercado" id="mercado" placeholder="Interno ou Externo">
+			<br>
+			<br>
+
+			<label for="fornecedor">Fornecedor:</label>
+			<select name="fornecedor" id="fornecedor">
+				<option disabled selected value="0">Selecione </option>
+				<option value="1">Fornecedor A</option>
+				<option value="2">Forncedor B</option>
+				<option value="3">Fornecedor C</option>
+			</select>
+			<br>
+			<br>
+			<input type="submit" name="cadastrar" value="Cadastrar">
+			<input type="reset" value="Limpar">
+		</form>
+
+		<br>
+		<a href="inicial.html">Voltar</a>
+
+	</body>
+
+</html>
+
