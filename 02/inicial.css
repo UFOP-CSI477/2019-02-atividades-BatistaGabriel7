@@ -1,0 +1,27 @@
+h1 {
+    color: blue;
+    background-color: lightblue;
+    padding: 5px;
+    text-decoration: none;
+}
+
+h2 {
+    color: blue;
+    background-color: lightblue;
+    padding: 2px;
+    text-decoration: none;
+}
+
+h3 {
+    color: blue;
+    background-color: lightblue;
+    padding: 2px;
+    text-decoration: none;
+}
+
+a {
+    color: black;
+    background-color: lightgray;
+    padding: 1.5px;
+    text-decoration: none;
+}

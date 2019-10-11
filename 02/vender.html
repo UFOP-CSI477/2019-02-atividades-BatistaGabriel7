@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="br" dir="ltr">
+
+	<head>
+		<!--Comentário-->
+		<title>Vendas</title> 
+		<meta charset="utf-8">
+	</head>
+
+	<body>
+		<h1>Venda de Produtos</h1>
+
+		<form method="post" action="validar.html">
+			<label for="produto">Produto: </label>
+			<select name="produto" id="produto">
+				<option disabled selected value="0">Selecione </option>
+				<option value="1">Whey Protein</option>
+				<option value="2">Hipercalórico</option>
+				<option value="3">Creatina</option>
+				<option value="4">Glutamina</option>
+			</select>
+			<br>
+			<br>
+			<label for="quantidade">Quantidade: </label>
+			<input type="text" name="quantidade"  id="quantidade" placeholder="Quantidade">
+			<br>
+			<br>
+
+			<label for="cliente">Cliente: </label>
+			<select name="cliente" id="cliente">
+				<option disabled selected value="0">Selecione </option>
+				<option value="1">Cliente A</option>
+				<option value="2">Cliente B</option>
+				<option value="3">Cliente C</option>
+				<option value="4">Cliente D</option>
+			</select>
+			<br>
+			<br>
+
+			<input type="submit" name="vender" value="Vender">
+			<input type="reset" value="Limpar">
+
+		</form>
+	</body>
+	<br>
+	<a href="inicial.html">Voltar</a>
+</html>
+
