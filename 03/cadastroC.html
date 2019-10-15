@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="br" dir="ltr">
+
+<head>
+    <!--Comentário-->
+    <title>Cadastro Cliente</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4">
+            <div class="jumbotron">
+                <h1>Dados do Cadastro</h1>
+            </div>
+            <form method="post" action="validar.html">
+                <div class="form-group">
+                    <label for="nome">Nome: </label>
+                    <input type="text" name="nome" id="nome" placeholder="Insira seu nome" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="endereco">Endereço: </label>
+                    <input type="text" name="endereco" id="endereco" placeholder="Rua, número, bairro, complemento" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail: </label>
+                    <input type="text" name="email" id="email" placeholder="Insira seu E-mail" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="cidade">Cidade: </label>
+                    <input type="text" name="cidade" id="cidade" placeholder="Insira sua cidade" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="usuario">Usuário: </label>
+                    <input type="text" name="usuario" id="usuario" placeholder="Insira um nome de usuário" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="senha">Senha:</label>
+                    <input type="password" name="senha" id="senha" placeholder="Insira uma senha forte" class="form-control">
+                </div>
+
+                <button type="submit" class="btn btn-success">Cadastrar</button>
+                <button type="reset" class="btn btn-secondary">Limpar</button>
+                <a class="btn btn-dark" href="inicial.html">Voltar</a>
+        </div>
+        </form>
+
+</body>
+
+</div>
+
+</html>

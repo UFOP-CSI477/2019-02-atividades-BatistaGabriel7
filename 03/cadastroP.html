@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="br" dir="ltr">
+
+<head>
+    <!--Comentário-->
+    <title>Cadastrar Produto</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4">
+            <div class="jumbotron">
+                <h1>Dados do Cadastro</h1>
+            </div>
+
+            <form method="post" action="validar.html">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" class="form-control" placeholder="Nome do produto">
+                </div>
+                <div class="form-group">
+                    <label for="peso">Peso:</label>
+                    <input type="text" name="peso" id="peso" class="form-control" placeholder="Peso do produto">
+                </div>
+                <div class="form-group">
+                    <label for="unidade">Unidade de medida:</label>
+                    <input type="text" name="unidade" id="unidade" class="form-control" placeholder="Kg, g, cm, m, etc">
+                </div>
+                <div class="form-group">
+                    <label for="valor">Valor:</label>
+                    <input type="text" name="valor" id="valor" class="form-control" placeholder="Valor do produto">
+                </div>
+                <div class="form-group">
+                    <label for="estoque">Estoque:</label>
+                    <input type="text" name="estoque" id="estoque" class="form-control" placeholder="Quantidade em estoque">
+                </div>
+                <div class="form-group">
+                    <label for="mercado">Mercado:</label>
+                    <input type="text" name="mercado" id="mercado" class="form-control" placeholder="Interno ou Externo">
+                </div>
+                <div class="form-group">
+                    <label for="fornecedor">Fornecedor:</label>
+                    <select name="fornecedor" id="fornecedor" class="custom-select">
+                <option disabled selected value="0">Selecione </option>
+                <option value="1">Fornecedor A</option>
+                <option value="2">Forncedor B</option>
+                <option value="3">Fornecedor C</option>
+            </select>
+                </div>
+
+                <button type="submit" class="btn btn-success">Cadastrar</button>
+                <button type="reset" class="btn btn-secondary">Limpar</button>
+                <a class="btn btn-dark" href="inicial.html">Voltar</a>
+            </form>
+
+        </div>
+</body>
+</div>
+
+</html>
