@@ -1,0 +1,43 @@
+h1 {
+    color: blue;
+    background-color: lightblue;
+    padding: 5px;
+    text-decoration: none;
+}
+
+table {
+    width: 100%;
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 5px;
+}
+
+th {
+    font-size: 14pt;
+    font-family: fantasy;
+    color: black;
+}
+
+.destaque {
+    font-size: 18pt;
+    color: blue;
+    background-color: lightblue;
+    text-align: center;
+}
+
+tbody tr:hover {
+    background-color: lightblue;
+}
+
+thead tr:hover {
+    background-color: blue;
+}

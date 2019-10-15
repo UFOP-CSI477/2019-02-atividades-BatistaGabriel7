@@ -1,0 +1,28 @@
+html {
+    margin: 30px;
+}
+
+h1 {
+    color: blue;
+    background-color: lightblue;
+    padding: 5px;
+    text-decoration: none;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+}
+
+label {
+    font-family: arial;
+    font-size: 14pt;
+    color: blue;
+}
+
+.botao {
+    width: 10%;
+    padding: 4px;
+}
