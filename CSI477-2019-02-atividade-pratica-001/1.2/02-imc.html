@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="br" dir="ltr">
+
+<head>
+    <!--Comentário-->
+    <title>Cálculo IMC</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="imc.css">
+    <script src="calculo.js"></script>
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4">
+            <div class="jumbotron">
+                <h1>Cálculo IMC</h1>
+            </div>
+            <form name="dados">
+                <div class="form-group">
+                    <label for="peso">Peso: </label>
+                    <input type="number" name="peso" id="peso" value="" placeholder="Insira o peso" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="altura">Altura: </label>
+                    <input type="number" name="altura" id="altura" value="" placeholder="Insira sua altura" class="form-control">
+                </div>
+                <input type="button" class="btn btn-success" onclick="calcular()" value="Calcular">
+                <button type="reset" class="btn btn-secondary">Limpar</button>
+                <br>
+                <br>
+                <h2>Resultados:</h2>
+                <div class="form-group">
+                    <label for="imc">IMC: </label>
+                    <input type="number" name="imc" id="imc" value="" class="form-control" disabled="disabled">
+                </div>
+                <div class="form-group">
+                    <label for="classificacao">Classificação: </label>
+                    <input type="text" name="classificacao" id="classificacao" value="" class="form-control" disabled="disabled">
+                </div>
+                <div class="form-group">
+                    <label for="ideal">Peso ideal: </label>
+                    <input type="text" name="ideal" id="ideal" value="" class="form-control" disabled="disabled">
+                </div>
+        </div>
+        </form>
+
+</body>
+
+</div>
+
+</html>
