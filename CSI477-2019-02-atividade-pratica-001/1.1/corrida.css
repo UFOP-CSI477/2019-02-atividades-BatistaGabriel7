@@ -1,0 +1,15 @@
+html {
+    margin: 30px;
+}
+
+label {
+    font-family: arial;
+    font-size: 14pt;
+    color: blue;
+}
+
+h1,
+h2,
+p {
+    text-align: center;
+}

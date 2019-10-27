@@ -3,10 +3,10 @@
 
 <head>
     <!--Comentário-->
-    <title>Cálculo IMC</title>
+    <title>Escala</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="bootstrap.css">
-    <link rel="stylesheet" href="imc.css">
+    <link rel="stylesheet" href="escala.css">
     <script src="calculo.js"></script>
 </head>
 
@@ -15,20 +15,20 @@
         <div class="col-4"></div>
         <div class="col-4">
             <div class="jumbotron">
-                <h1>Cálculo IMC</h1>
+                <h1>Escala</h1>
             </div>
             <form name="dados">
                 <div class="form-group">
-                    <label for="peso" id="label1">Peso: </label>
-                    <input type="number" name="peso" id="peso" value="" placeholder="Insira o peso" class="form-control">
+                    <label for="amplitude" id="label1">Amplitude: </label>
+                    <input type="number" name="amplitude" id="amplitude" value="" placeholder="Insira a amplitude(mm)." class="form-control">
 
                     <div id="alerta1" class="alert alert-danger" style="display: none;">
                         <span>Preencha o primeiro valor corretamente!</span>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="altura" id="label2">Altura: </label>
-                    <input type="number" name="altura" id="altura" value="" placeholder="Insira sua altura" class="form-control">
+                    <label for="distancia" id="label2">Distância: </label>
+                    <input type="number" name="distancia" id="distancia" value="" placeholder="Insira a distância(mm) entre as ondas." class="form-control">
 
                     <div id="alerta2" class="alert alert-danger" style="display: none;">
                         <span>Preencha o segundo valor corretamente!</span>
@@ -38,19 +38,16 @@
                 <button type="reset" class="btn btn-secondary">Limpar</button>
                 <br>
                 <br>
-                <h2>Resultados:</h2>
-                <div class="form-group">
-                    <label for="imc">IMC: </label>
-                    <input type="number" name="imc" id="imc" value="" class="form-control" disabled="disabled">
-                </div>
+                <h2>Resultado:</h2>
                 <div class="form-group">
                     <label for="classificacao">Classificação: </label>
                     <input type="text" name="classificacao" id="classificacao" value="" class="form-control" disabled="disabled">
                 </div>
                 <div class="form-group">
-                    <label for="ideal">Peso ideal: </label>
-                    <input type="text" name="ideal" id="ideal" value="" class="form-control" disabled="disabled">
+                    <label for="efeitos">Efeitos: </label>
+                    <input type="text" name="efeitos" id="efeitos" value="" class="form-control" disabled="disabled">
                 </div>
+
         </div>
         </form>
 

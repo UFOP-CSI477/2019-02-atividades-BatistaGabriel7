@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="br" dir="ltr">
+
+<head>
+    <!--Comentário-->
+    <title>Corrida</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="jquery-3.4.1.js"></script>
+    <script src="corrida.js"></script>
+    <link rel="stylesheet" href="corrida.css">
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1>Dados gerais</h1>
+        <p><strong>CAMPEONATO DE CARRINHO DE ROLIMÃ</strong></p>
+    </div>
+    <form name="dados" method="post">
+        <div id="grupo1" class="form-group">
+            <label for="largada" id="label1">Largada: </label>
+            <input type="number" name="largada" id="largada" value="" placeholder="Insira a posição de largada." class="form-control">
+
+            <div id="alerta1" class="alert alert-danger" style="display: none;">
+                <span>Preencha o primeiro valor corretamente!</span>
+            </div>
+        </div>
+        <div id="grupo2" class="form-group">
+            <label for="competidor" id="label2">Competidor(a): </label>
+            <input type="text" name="competidor" id="competidor" value="" placeholder="Insira o nome do competidor(a)." class="form-control">
+
+            <div id="alerta2" class="alert alert-danger" style="display: none;">
+                <span>Preencha o segundo valor corretamente!</span>
+            </div>
+        </div>
+        <div id="grupo3" class="form-group">
+            <label for="tempo" id="label3">Tempo(s): </label>
+            <input type="number" name="tempo" id="tempo" value="" placeholder="Insira o tempo em segundos (ex: 120)." class="form-control">
+
+            <div id="alerta3" class="alert alert-danger" style="display: none;">
+                <span>Preencha o terceiro valor corretamente!</span>
+            </div>
+        </div>
+        <input type="button" id="colocar" class="btn btn-primary" value="Inserir" onclick="inserir('body')">
+        <input type="button" class="btn btn-success" value="Resultados" onclick="resultado()">
+        <button type="reset" class="btn btn-secondary">Limpar</button>
+        <br>
+        <br>
+        </div>
+    </form>
+
+    <h2>Resultados da corrida:</h2>
+    <table class="table table-bordered table-hover table-striped">
+
+        <thead id="tabela" class="thead-dark">
+            <tr>
+                <th>Largada</th>
+                <th>Competidor</th>
+                <th>Tempo</th>
+            </tr>
+        </thead>
+
+        <tbody id="body"></tbody>
+    </table>
+
+</body>
+
+</html>
