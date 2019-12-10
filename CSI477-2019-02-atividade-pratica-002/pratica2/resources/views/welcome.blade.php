@@ -60,7 +60,7 @@
             }
         </style>
     </head>
-    <body>
+    <body style="background-image: url('../../../../img/fundo.jpg');">
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
